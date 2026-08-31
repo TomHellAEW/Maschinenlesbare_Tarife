@@ -1,0 +1,390 @@
+{
+  "dsoName": "Städtische Elektrizitätsversorgung Laufenburg",
+  "dsoNumber": 10588012345,
+  "tariffs": [
+    {
+      "tariffName": "Konzession Gemeinde",
+      "tariffType": "regional_fees",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Alle Kundengruppen",
+      "prices": {
+        "municipalityTaxes": [
+          {
+            "municipalityNumber": 4170,
+            "municipalityName": "Laufenburg",
+            "municipalityBase": {
+              "price": 0,
+              "priceUnit": "CHF/M"
+            },
+            "municipalityEnergy": [
+              {
+                "from": "00:00",
+                "to": "00:00",
+                "price": 0.008,
+                "priceUnit": "CHF/kWh"
+              }
+            ],
+            "municipalityComment": ""
+          }
+        ]
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "Basistarif Haushalt und Gewerbe Netz",
+      "tariffType": "grid",
+      "standardBasegroup": true,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Diese Tarife gelten für Haushalt und Gewerbe mit einem Jahresverbrauch bis 100'000 kWh, bei denen die EVL schaltbare Lasten nutzen kann, wie z. Bsp. durch ansteuerbare Boiler oder Wärmepumpen. Standardmäsig werden die Kunden der Kundengruppe Haushalt und Gewerbe diesem Tarif zugeteilt.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1185,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0.1185,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "Baustrom und Temporäre Anschlüsse Netz",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "Schausteller, Feste etc.",
+      "customerType": "Baustrom und Temporäre Anschlüsse",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1985,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0.1985,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "Wahltarif Haushalt und Gewerbe Netz",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Diese Tarife gelten für Haushalt und Gewerbe mit einem Jahresverbrauch bis 100'000 kWh, bei denen die Steuerungen der schaltbaren Lasten, wie z. Bsp. Boiler oder Wärmepumpen durch die Kunden selber vorgenommen werden.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1215,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0.1215,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "Grosskunden mit Leistungsmessung Netz",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit Verbrauch über 100000 kWh",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1005,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0.1005,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "Grosskunden Netz (Marktkunden ohne Energiebezug)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Marktkunden",
+      "prices": {
+        "base": {
+          "price": 0.1005,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0.1005,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "tariffName": "Grosskunden Energie",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "BT Grosskunden Verbrauch über 100000 kWh",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.11,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Basistarif Haushalt und Gewerbe Energie",
+      "tariffType": "electricity",
+      "standardBasegroup": true,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Diese Tarife gelten für Haushalt und Gewerbe mit einem Jahresverbrauch bis 100'000 kWh, bei denen die Steuerungen der schaltbaren Lasten, wie z. Bsp. Boiler oder Wärmepumpen durch die Kunden selber vorgenommen werden.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.117,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Wahltarif Haushalt und Gewerbe Energie",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Diese Tarife gelten für Haushalt und Gewerbe mit einem Jahresverbrauch bis 100'000 kWh, bei denen die EVL schaltbare Lasten nutzen kann, wie z. Bsp. durch ansteuerbare Boiler oder Wärmepumpen. Standardmäsig werden die Kunden der Kundengruppe Haushalt und Gewerbe diesem Tarif zugeteilt.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.117,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Baustrom Energie",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Temporäre Anschlüsse",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.185,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Direktmessung",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Haushalte und Gewerbe",
+      "prices": {
+        "base": {
+          "price": 3,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Wandlermessung",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Grosskunden mit Wandlermessung",
+      "prices": {
+        "base": {
+          "price": 10,
+          "priceUnit": "CHF/M"
+        }
+      }
+    }
+  ]
+}
