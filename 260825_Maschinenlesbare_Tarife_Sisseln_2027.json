@@ -1,0 +1,1385 @@
+{
+  "dsoName": "Elektra Sisseln",
+  "dsoNumber": 10663012345,
+  "tariffs": [
+    {
+      "customerVoltageLevel": 5,
+      "tariffName": "MS 2027 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit Anschluss an der Mittelspannung (Netzebene 5) ",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.025,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 3.8,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.11,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "NSL 2027 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch ab 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.033,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 3.85,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.11,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "NSO 2027 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": true,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 3,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.043,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "Temp 2027 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 5.41666,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.157,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "tariffName": "MS 2027 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit Anschluss an der Mittelspannung (Netzebene 5) ",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "NSL 2027 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch ab 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "NSO 2027 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": true,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Temp 2027 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.1205,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Messtarif - Direktmessung, Netzebene 7 - 2027",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für alle Direktmessung an der Netzebene 7",
+      "prices": {
+        "base": {
+          "price": 5.3,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Messtarif - Wandlermessung Netzebene 7 - 2027",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für alle Wandlermessung an der Netzebene 7",
+      "prices": {
+        "base": {
+          "price": 18,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Messtarif - Wandlermessung Netzebene 5 - 2027",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für alle Wandlermessung an der Netzebene 5",
+      "prices": {
+        "base": {
+          "price": 26,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Konzessionsabgabe 2027",
+      "tariffType": "regional_fees",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für alle Kundengruppen",
+      "prices": {
+        "municipalityTaxes": [
+          {
+            "municipalityNumber": 4177,
+            "municipalityName": "Sisseln",
+            "municipalityBase": {
+              "price": 0,
+              "priceUnit": "CHF/M"
+            },
+            "municipalityEnergy": [
+              {
+                "from": "00:00",
+                "to": "00:00",
+                "price": 0.0028,
+                "priceUnit": "CHF/kWh"
+              }
+            ],
+            "municipalityComment": ""
+          }
+        ]
+      }
+    },
+    {
+      "customerVoltageLevel": 5,
+      "tariffName": "MS 2026 (N) ",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "multilevel",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit Anschluss an der Mittelspannung (Netzebene 5) ",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "07:00",
+            "to": "19:59",
+            "price": 0.0245,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "00:00",
+            "to": "06:59",
+            "price": 0.02,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "20:00",
+            "to": "23:59",
+            "price": 0.02,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.02,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr",
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 3.8,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr",
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.11,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "NSL 2026 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "multilevel",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch ab 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "07:00",
+            "to": "19:59",
+            "price": 0.029,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "00:00",
+            "to": "06:59",
+            "price": 0.0235,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "20:00",
+            "to": "23:59",
+            "price": 0.0235,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.0235,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr",
+              "Sa"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 3.85,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr",
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.11,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "NS0 2026 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "multilevel",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 3,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "07:00",
+            "to": "19:59",
+            "price": 0.044,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "00:00",
+            "to": "06:59",
+            "price": 0.0325,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "20:00",
+            "to": "23:59",
+            "price": 0.0325,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.0325,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "tariffName": "MS 2026 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "multilevel",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit Anschluss an der Mittelspannung (Netzebene 5) ",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "07:00",
+            "to": "19:59",
+            "price": 0.1165,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "00:00",
+            "to": "06:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "20:00",
+            "to": "23:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "NSL 2026 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "multilevel",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch ab 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "07:00",
+            "to": "19:59",
+            "price": 0.1165,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "00:00",
+            "to": "06:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "20:00",
+            "to": "23:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "NS0 2026 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "multilevel",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "07:00",
+            "to": "19:59",
+            "price": 0.1165,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "00:00",
+            "to": "06:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Mo",
+              "Tu",
+              "We",
+              "Th",
+              "Fr"
+            ],
+            "from": "20:00",
+            "to": "23:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          },
+          {
+            "months": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "weekdays": [
+              "Sa",
+              "Su"
+            ],
+            "from": "00:00",
+            "to": "23:59",
+            "price": 0.1035,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Temp 2026 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.137,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "Temp 2026 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.152,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "tariffName": "Messtarif - Direktmessung, Netzebene 7 - 2026",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für alle Direktmessung an der Netzebene 7",
+      "prices": {
+        "base": {
+          "price": 3.8,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Messtarif - Wandlermessung Netzebene 7 - 2026",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für alle Wandlermessung an der Netzebene 7",
+      "prices": {
+        "base": {
+          "price": 23,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Messtarif - Wandlermessung Netzebene 5 - 2026",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für alle Wandlermessung an der Netzebene 5",
+      "prices": {
+        "base": {
+          "price": 38,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Konzessionsabgabe 2026",
+      "tariffType": "regional_fees",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für alle Kundengruppen",
+      "prices": {
+        "municipalityTaxes": [
+          {
+            "municipalityNumber": 4177,
+            "municipalityName": "Sisseln",
+            "municipalityBase": {
+              "price": 0,
+              "priceUnit": "CHF/M"
+            },
+            "municipalityEnergy": [
+              {
+                "from": "00:00",
+                "to": "00:00",
+                "price": 0.0028,
+                "priceUnit": "CHF/kWh"
+              }
+            ],
+            "municipalityComment": ""
+          }
+        ]
+      }
+    }
+  ]
+}
