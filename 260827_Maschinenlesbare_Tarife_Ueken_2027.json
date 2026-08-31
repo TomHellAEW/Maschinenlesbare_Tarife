@@ -1,0 +1,445 @@
+{
+  "dsoName": "Elektra Ueken",
+  "dsoNumber": 10362012345,
+  "tariffs": [
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "GN 2027 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch ab 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 8,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.0545,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 6,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.02,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "KN 2027 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": true,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 8,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.081,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "BT 2027 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 8,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.146,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "tariffName": "GN 2027 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch ab 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 2,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.088,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "KN 2027 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": true,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 2,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.088,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "BT 2027 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.178,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Messtarif - Direktmessung, Netzebene 7 - 2027",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für alle Direktmessung an der Netzebene 7",
+      "prices": {
+        "base": {
+          "price": 5,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Konzessionsabgabe 2027",
+      "tariffType": "regional_fees",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2027-01-01",
+      "endDate": "2027-12-31",
+      "comment": "",
+      "customerType": "für alle Kundengruppen",
+      "prices": {
+        "municipalityTaxes": [
+          {
+            "municipalityNumber": 4186,
+            "municipalityName": "Herznach-Ueken",
+            "municipalityBase": {
+              "price": 0,
+              "priceUnit": "CHF/M"
+            },
+            "municipalityEnergy": [
+              {
+                "from": "00:00",
+                "to": "00:00",
+                "price": 0.0065,
+                "priceUnit": "CHF/kWh"
+              }
+            ],
+            "municipalityComment": ""
+          }
+        ]
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "KN 2026 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 8,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.075,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "customerVoltageLevel": 7,
+      "tariffName": "BT 2026 (N)",
+      "tariffType": "grid",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 8,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.14,
+            "priceUnit": "CHF/kWh"
+          }
+        ],
+        "power": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kW/M"
+          }
+        ],
+        "reactivePower": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0,
+            "priceUnit": "CHF/kVarh"
+          }
+        ],
+        "refundStorage": {
+          "price": 0,
+          "priceUnit": "CHF/kWh"
+        }
+      }
+    },
+    {
+      "tariffName": "KN 2026 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "Kunden mit einem Anschluss an der Niederspannung (Netzebene 7) und einem Jahresverbrauch bis 50'000 kWh.",
+      "prices": {
+        "base": {
+          "price": 2,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.09,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "BT 2026 (E)",
+      "tariffType": "electricity",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für temporäre Anschlüsse (z.B. Baustrom, Schausteller etc.)",
+      "prices": {
+        "base": {
+          "price": 0,
+          "priceUnit": "CHF/M"
+        },
+        "energy": [
+          {
+            "from": "00:00",
+            "to": "00:00",
+            "price": 0.18,
+            "priceUnit": "CHF/kWh"
+          }
+        ]
+      }
+    },
+    {
+      "tariffName": "Messtarif - Direktmessung, Netzebene 7 - 2026",
+      "tariffType": "metering",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für alle Direktmessung an der Netzebene 7",
+      "prices": {
+        "base": {
+          "price": 4.5,
+          "priceUnit": "CHF/M"
+        }
+      }
+    },
+    {
+      "tariffName": "Konzessionsabgabe 2026",
+      "tariffType": "regional_fees",
+      "standardBasegroup": false,
+      "tariffForm": "constant",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "comment": "",
+      "customerType": "für alle Kundengruppen",
+      "prices": {
+        "municipalityTaxes": [
+          {
+            "municipalityNumber": 4186,
+            "municipalityName": "Herznach-Ueken",
+            "municipalityBase": {
+              "price": 0,
+              "priceUnit": "CHF/M"
+            },
+            "municipalityEnergy": [
+              {
+                "from": "00:00",
+                "to": "00:00",
+                "price": 0.0065,
+                "priceUnit": "CHF/kWh"
+              }
+            ],
+            "municipalityComment": ""
+          }
+        ]
+      }
+    }
+  ]
+}
